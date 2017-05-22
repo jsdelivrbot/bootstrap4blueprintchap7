@@ -13,6 +13,10 @@
 //
 // Variable format should follow the `$component-modifier-state-property` order.
 
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-flex:           false;
 
 // Colors
 //
@@ -84,6 +88,8 @@ $btn-secondary-border:             darken($btn-secondary-bg, 5%);
 $btn-feature-color:              #fff;
 $btn-feature-bg:                 $brand-feature;
 $btn-feature-border:             darken($btn-feature-bg, 5%);
+
+$page-header-border-color: $gray-light;
 
 // Font aweosme
 
